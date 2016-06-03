@@ -1,0 +1,33 @@
+<!--Nama     : Hery Septyadi -->
+<!--NIM      : 1211501224    -->
+<!--Kelompok : AA            -->
+<!--Desaign Web              -->
+<!--WEBSITE : www.herys.tk   -->
+
+#menu {
+background: #;
+float: left;
+list-style: none;
+margin: 0;
+padding: 0px 0px 0px 100px;
+width: 100%;
+}
+#menu li {
+float: left;
+font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+#menu a {
+background: # url("http://i47.tinypic.com/n1bj0j.jpg") bottom right no-repeat;
+color: #ccc;
+display: block;
+float: left;
+margin: 0;
+padding: 8px 12px;
+text-decoration: none;
+}
+#menu a:hover {
+/*background: #2580a2 url("http://i49.tinypic.com/2vjbz4g.jpg") bottom center */no-repeat;
+color: #09F;
+padding-bottom: 8px;}

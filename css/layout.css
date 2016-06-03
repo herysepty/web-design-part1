@@ -1,0 +1,410 @@
+<!--Nama     : Hery Septyadi -->
+<!--NIM      : 1211501224    -->
+<!--Kelompok : AA            -->
+<!--Desaign Web              -->
+<!--WEBSITE : www.herys.tk   -->
+body{
+	font:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+p{
+	padding:0px;
+	margin:0px;}
+#root{
+	background: #FFF;
+	/*border:1px solid #006;*/
+	width:1000px;
+	margin:-8px 0px -8px 0px;
+	padding:0px;
+	color:#666;
+	-moz-box-shadow: 0 0 3px 3px #888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	box-shadow: 0 0 3px 3px #888;
+	
+}
+#header{
+	/*border:1px solid #F00;*/
+	margin:0px;
+	padding:0px;
+}
+#info{
+	background: url(../img/header-top.png) repeat-x;
+	height:33px;
+	margin:0px;
+	padding:0px;
+	color:#999;
+	font: 10pt Arial;
+	
+}
+#info p{
+	padding:0px;
+	margin:0px;
+	padding:8px 50px;
+	}
+	
+#info-left{
+	background:none;
+	float:left;
+}
+#info-right{
+	background: none;
+	float:right;
+	padding:0px 0px 5px 0px;
+	vertical-align:top;
+	}
+
+#main-menu {
+	/*border:1px solid #0F0;*/
+	padding:5px 0px 5px 0px ;
+	margin:0px;
+	height:40px;
+	
+}
+#logo{
+	background:url(../img/logo.png) no-repeat;
+	float:left;
+	width:190px;
+	height:40px;
+	margin:5px 0px 0px 50px;
+}
+
+#menu1 {
+	/*border:1px solid #0F0;*/
+	width:750px;
+	padding:0px 0px 0px 0px ;
+	margin:-20px 0px 0px 0px;
+	height:40px;
+	float:right;
+	
+}
+#menu1 ul{
+	list-style:none;
+	text-decoration:none;
+	}
+#menu1 ul li{
+	display:inline;
+	padding:3px;
+	
+}
+
+
+#slider{
+	/*border:1px solid #00F;*/
+	background:url(../img/slider.png) repeat-x;
+	height:270;
+}
+#slider-contents{
+	width:400px;
+	text-align:left;
+	float:left;
+	padding:0px 0px 0px 50px;
+	font-size:14px;
+}
+#slider-contents h4{
+	font:12pt Verdana;
+	color:#fff;
+}
+#slider-contents p{
+	color:#FFF;
+	padding:5px 0px 0px 0px;
+}
+#slider-contents img{
+	padding:20px 0px 0px 0px;
+}
+#slider-img{
+	width:500px;
+	text-align:left;
+	float:right;
+	padding:0px 0px 0px 0px;
+
+	
+}
+#slider-img img{
+	height:70%;
+	width:80%;
+	padding:30px 50px 0px 50px;
+}
+
+
+#search-main{
+	
+}
+
+#qoute-main{
+	float:left;
+	width:600px;
+	padding-left:50px;
+}
+
+#search1{
+	float:right;
+	width:290px;
+	padding:30px 50px 0px 0px;
+}
+
+#content-main {
+	border:1px solid #0FF;
+}
+#content{
+	/*border:#0F6;*/
+	width:600px;
+	float:left;
+	padding:10px 0px 0px 50px;
+	font:10pt Thoma;
+}
+#content p, h4 {
+	text-align:left;
+}
+#content img{
+	padding:20px 0px 0px 0px;
+}
+#sidebar {
+	/*border:1px solid #F0F;*/
+	width:290;
+	float:right;
+	padding:0px 50px 0px 0px;
+	font:10pt Thoma;
+}
+#sidebar h4, p{
+	text-align:left;
+	
+}
+#sidebar img{
+	vertical-align: top;
+	padding:10px 0px 0px 0px;
+}
+#recentpost{	
+	/*border:1px solid yellow;*/
+	height:350px;
+	padding:20px 40px 0px 50px;
+	font: 10pt Tahoma;
+}
+#recentpost1{
+	float:left;
+	width:300px;
+}
+#recentpost1 p{
+	padding:170px 0px 0px 0px;
+}
+#recentpost2{
+	float:left;
+	width:300px;
+	
+}
+#recentpost2 p{
+	padding:170px 0px 0px 0px;
+}
+#recentpost3{
+	float:right;
+	width:300px;
+	
+}
+#recentpost3 p{
+	padding:170px 0px 0px 0px;
+}
+#feature-object{	
+	/*border:1px solid yellow;*/
+	height:250px;
+	padding:20px 40px 0px 50px;
+	font: 10pt Tahoma;
+}
+#feature-object1{
+	float:left;
+	width:600px;
+}
+#feature-object1 img{
+	margin-top:30px;
+}
+#feature-object2{
+	float:left;
+	width:300px;
+	
+}
+#feature-object2 img{
+	border:2px solid #999;
+	float:left;
+	width:300px;
+	
+}
+
+
+
+
+
+#footer-menu{
+	background:url(../img/footer-menu.png) repeat-x;
+	height:279px;
+	padding:20px 50px 0px 50px;
+	
+}
+#footer-menu1{
+	float:left;
+	width:270px;
+	text-align:left;
+	padding:0px 10px 0px 0px;
+}
+#footer-menu1 h4{
+	background:url(../img/stripfooter.png) bottom no-repeat;
+	padding:0px 0px 10px 10px;
+	color:#CCC;
+}
+#footer-menu1 p{
+	padding:30px 0px 0px 30px;
+}
+#footer-menu1 td{
+	font:12pt Arial;
+	color:#CCC;
+}
+
+#footer-menu2{
+	float:left;
+	width:270px;
+	text-align:left;
+	padding:0px 10px 0px 20px;
+	
+}
+#footer-menu2 h4{
+	background:url(../img/stripfooter.png) bottom no-repeat;
+	padding:0px 0px 10px 10px;
+	color:#CCC;
+}
+#footer-menu2-isi{
+	width:300px;
+	height:60px;
+	
+}
+#footer-menu2-isi p{
+	padding:0px 20px 0px 0px;
+}
+.footer-isi-left{
+	width:44px;
+	float:left;
+	border:2px solid #CCC;
+	margin:0px 5px 0px 0px;
+}
+.footer-isi-right{
+	width:230px;
+	float:right;
+	font:8pt Tahoma;
+	color:#CCC;
+	padding:0px 5px 0px 0px;
+}
+.warna{
+	color:#999;
+}
+.footer-isi-right p{
+	padding:0px;
+	margin:0px;
+}
+
+#footer-menu3{
+	float:right;
+	width:300px;
+	padding:0px 20px 0px 0px;
+}
+#footer-menu3 p{
+	padding:0px 0px 15px 30px;
+}
+#footer-menu3 h4{
+	background:url(../img/stripfooter.png) bottom no-repeat;
+	padding:0px 0px 10px 25px;
+	color:#CCC;
+}
+.footer-isi-right3 {
+	padding:0px;
+	margin:0px;
+	float:right;
+	font:8pt Tahoma;
+	color:#CCC;
+	padding:0px 5px 0px 25px;
+}
+#footer-menu3 input{
+	width:200px;
+	height:20px;
+}
+#footer-menu3 img{
+	padding:20px 0px 0px -30px;
+}
+
+#footer-menu4{
+	float:right;
+	width:300px;
+	padding:0px 20px 0px 0px;
+}
+#footer-menu4 h4{
+	background:url(../img/stripfooter.png) bottom no-repeat;
+	padding:0px 0px 10px 25px;
+	color:#CCC;
+}
+
+#footer-menu4 p{
+	padding:0px 5px 0px 30px;
+}
+
+#footer{
+	background:url(../img/footer.png) repeat-x;
+	/*border:1px solid #F09;*/
+	font:8pt Arial;
+	margin:0px;
+	padding:15px 0px 0px 50px;
+	height:30px;
+}
+#footer p{
+	font:9pt thoma;
+	color:#CCC;
+}
+
+#bersih{
+	clear:both;
+}
+.stip{
+	background:url(../img/strip.png) no-repeat;
+}
+
+.readmore{
+	float:left;
+	width:100px;
+	height:25px;
+	padding:20px 0px 0px 0px;
+}
+.recentpost-img {
+	border:5px solid #fff;
+	width:270px;
+	height:150px;
+	float:left;
+	-moz-box-shadow: 0 0 3px 3px #888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	box-shadow: 0 0 3px 3px #888;
+}
+.featured-img {
+	border:5px solid #fff;
+	float:left;
+	width:150px;
+	height:90px;
+	-moz-box-shadow: 0 0 3px 3px #888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	box-shadow: 0 0 3px 3px #888;
+	margin:15px;
+}
+
+.qoute-top{
+	background:url(../img/quote-top.png) no-repeat;
+	height:40px;
+	width:auto;
+}
+.qoute-isi{
+	background:url(../img/quote-isi.png) repeat-y;
+	width: !important;
+}
+.qoute-bottom{
+	background:url(../img/quote-bottom.png) no-repeat;
+	height:40px;
+	width:auto;
+}
+.qoute-main{
+	background:url(../img/qoute-main.jpg) no-repeat;
+	height:70px;
+	padding: 10px 0px 0px 0px;
+	margin-top: 10px;
+}
